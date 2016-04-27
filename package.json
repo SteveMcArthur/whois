@@ -1,0 +1,14 @@
+{
+  "name": "whois",
+  "version": "0.0.1",
+  "description": "Returns whois query in JSON format. Has formatters for whois data returned for different TLDs. Returns JSON in a common format regardless of the TLD.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve McArthur",
+  "license": "ISC",
+  "dependencies": {
+    "node-whois": "^2.1.3"
+  }
+}
